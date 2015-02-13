@@ -17,11 +17,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Smith_Activity"
+            android:name=".SmithActivity"
             android:label="@string/title_activity_smith_" >
         </activity>
         <activity
-            android:name=".Sondalini_Activity"
+            android:name=".SondaliniActivity"
             android:label="@string/title_activity_sondalini_" >
         </activity>
     </application>

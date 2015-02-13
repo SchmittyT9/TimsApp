@@ -1,6 +1,7 @@
 package com.example.timothysmith.gains;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -43,14 +44,18 @@ public class MainActivity extends Activity {
      */
     public void smith(View view)
     {
+        Intent intent = new Intent(this, SmithActivity.class);
 
+        startActivity(intent);
     }
     /*
     SONDAS ACTIVITY
      */
     public void sondas(View view)
     {
+        Intent intent = new Intent(this, SondaliniActivity.class);
 
+        startActivity(intent);
     }
 
 }
