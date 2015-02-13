@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Smith_Activity"
+            android:label="@string/title_activity_smith_" >
+        </activity>
+        <activity
+            android:name=".Sondalini_Activity"
+            android:label="@string/title_activity_sondalini_" >
+        </activity>
     </application>
 
 </manifest>
