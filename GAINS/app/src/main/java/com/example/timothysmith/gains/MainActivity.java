@@ -51,7 +51,7 @@ public class MainActivity extends Activity {
     /*
     SONDAS ACTIVITY
      */
-    public void sondas(View view)
+    public void sondalini(View view)
     {
         Intent intent = new Intent(this, SondaliniActivity.class);
 

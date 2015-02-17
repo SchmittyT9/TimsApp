@@ -7,7 +7,7 @@
     <string name="yeahmofuka">Well done on benching good today!</string>
     <string name="smith">Smith</string>
     <string name="sondalini">Sondalini</string>
-    <string name="title_activity_smith_">Smith_Activity</string>
-    <string name="title_activity_sondalini_">Sondalini_Activity</string>
+    <string name="title_activity_smith_">Smith\'s Activity</string>
+    <string name="title_activity_sondalini_">Sondalini\'s Activity</string>
 
 </resources>

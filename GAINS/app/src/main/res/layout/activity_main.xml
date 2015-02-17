@@ -3,14 +3,32 @@
     android:id="@+id/RootLayout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
-
+    <!--
+        LinearLayout is a container for Views, will put views one after the other.
+        width/height: what it sounds like.
+            "fill_parent" and "match_parent" are the same thing, match the height/width of the view that this view is inside of.
+        id: this id is used to fetch the view in your code, to change the view prgramatically.
+        background: basically set the visuals for this view. see border.xml in res/drawable.
+        orientation: vertical or horizontal.
+            vertical means views within LinearLayout are stacked underneath each other.
+            horizontal means they will be side by side.
+    -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/ButtonBar"
         android:background="@drawable/border"
         android:orientation="vertical" >
+        <!--
+            onClick: this is the method in MainActivity.java that is called when the button is pushed. ie. smith().
+            text: this is the text for the button.
 
+            height: set to 0dp for weight to work
+            weight:     In LinearLayout, if you have two views, each with weight 1, they will
+                        each take up half the available space. If one of them has weight 2,
+                        and the other weight 1, then the one with weight 2 will take 2/3 of the
+                        available space, and the other 1/3 of the space. Experiment and see.
+        -->
         <Button
             android:layout_width="fill_parent"
             android:layout_height="0dp"
@@ -20,14 +38,14 @@
             android:background="@drawable/button"/>
 
         <Button
-            android:id="@+id/newButton"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:onClick="sondas"
+            android:onClick="sondalini"
             android:text="@string/sondalini"
             android:background="@drawable/button"/>
 
     </LinearLayout>
 
 </RelativeLayout>
+
